@@ -1,0 +1,213 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'PT Serif', serif;
+	font-size: 18px;
+}
+.container{
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container:before,
+.container:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.col33{
+	width: 33.33%;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+}
+.col50{
+	width: 50%;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+}
+.col100{
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/*Common CSS*/
+ .date_author_common a{
+ 	text-decoration: none;
+ 	color: #b0b0b0;
+ }
+ .date_author_common a:first-child{
+  	border-right: 2px solid #b0b0b0;
+  	padding-right: 10px;
+  }
+  .date_author_common a:last-child{
+  	color: #1a54e7;
+  	padding-left: 10px;
+  }
+  .cat-img{
+  	position: relative;
+  }
+  .cat-img img{
+  	width: 100%;
+  }
+  .cat.trips a{
+  	background: #d90445;
+  }
+  .cat.tech a{
+  	background: #000;
+  }
+  .cat.nature a{
+  	background: #58b600;
+  }
+  .cat.fashion a{
+  	background: #8200b2;
+  }
+  .p-top-bottom{
+  	padding-top: 30px;
+  	padding-bottom: 30px;
+  }
+  
+
+ /*Header Area*/
+ .logo{
+ 	display: inline-block;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	padding-right: 30px;
+ 	background: #1a54e7;
+ 	position: relative;
+ }
+  .logo:before{
+  	content: "";
+  	position: absolute;
+  	background: #1a54e7;
+  	top: 0;
+  	bottom: 0;
+  	right: 100%;
+  	left: -9999px;
+  }
+  .logo a {
+  	text-decoration: none;
+  	color: #fff;
+  	font-size: 24px;
+  }
+ .manu{
+ 	float: right;
+ }
+ .manu ul{
+ 	padding: 0;
+ 	margin: 0;
+ 	list-style: none;
+ }
+ .manu ul li{
+ 	float: left;
+ }
+ .manu ul li a{
+ 	text-decoration: none;
+ 	display: block;
+ 	padding: 23px 13px;
+ 	color: #1a54e7;
+ }
+ .manu ul li.active a{
+ 	position: relative;
+ }
+.manu ul li.active a:after {
+ 	content: "";
+ 	background: #1a54e7;
+ 	position: absolute;
+ 	height: 2px;
+ 	bottom: 0;
+ 	left: 0;
+ 	right: 0;
+ }
+
+ /*Banner Area Start*/
+ .banner{
+ 	text-align: center;
+ 	color: #fff;
+ 	background-image: url(../image/slaiderbg.jpg);
+ 	background-size: 100% 100%;
+ }
+ .banner-in{
+ 	padding-top: 220px;
+ 	padding-bottom: 220px;
+ 	position: relative;
+ }
+  .banner-in h2{
+  	font-size: 48px;
+  }
+ .cat{
+ 	position: absolute;
+ 	bottom: 40px;
+ 	left: 0;
+ }
+ .cat a{
+ 	text-decoration: none;
+ 	display: inline-block;
+ 	font-weight: bold;
+ 	padding: 10px;
+ 	background: #1a54e7;
+ 	color: #fff;
+ }
+ .date_author{
+ 	position: absolute;
+ 	right: 0;
+ 	bottom: 40px;
+ }
+ .date_author a{
+ 	text-decoration: none;
+ 	color: #fff
+ }
+ .date_author a:first-child{
+  	border-right: 2px solid #fff;
+  	padding-right: 10px;
+  }
+  .date_author a:last-child{
+  	color: #1a54e7;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  }
+/*Feature Area*/
+.feature{
+	background: #f6f6f6;
+	padding-top: 30px;
+	padding-bottom: 30px;
+ }
+.feature img{
+	width: 100%;
+}
+.feature h4{
+	font-size: 24px;
+	text-align: justify;
+ }
+ /*Main sec Start*/
+ .main_sec{
+ 	color: #fff;
+ 	text-align: center;
+ 	margin-top: 30px;
+ 	margin-bottom: 30px;
+ }
+ .main_sec .banner-in{
+ 	background-image: url(../image/sec3.jpg);
+ 	background-size: 100% 100%;
+ 	padding-bottom: 50px;
+ }
+ .main_sec .banner-in h2{
+ 	margin: 0;
+ }
+ .main_sec h4{
+  	color: #000;
+  	text-align: left;
+  }
+ .main_sec .date_author_common{
+ 	text-align: left;
+ }
+
+
+  
